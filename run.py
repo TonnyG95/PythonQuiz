@@ -57,3 +57,55 @@ options = [
     ["A. Two", "B. None", "C. One", "D. All of the available cores"],
     ["A. Positive numbers are rounded down and negative numbers are rounded up" , "B. Positive numbers are rounded up and negative numbers are rounded down.", "C. Both positive and negative numbers are rounded down.", "D. Both positive and negative numbers are rounded up."]
 ]
+
+def start_game():
+    """
+    Starting point
+
+    """
+    guesses = []
+    correct_guesses = 0
+    question_num = 1
+
+
+    """
+    Listing quesstion and answers
+
+    """
+
+    for key in questions:
+        print(" ")
+        print(key)
+        for i in options[question_num-1]:
+            print(i)
+        
+        """
+        This block will take user input and add it to list answers so that we can check answer later
+        and it will go for next quesstion
+
+        """
+
+        guess = input("What is your answer?")
+        guess = guess.upper()
+        guesses.append(guess)
+
+        correct_guesses += check_answer(quesstion.get(key), guess)
+        question_num +=1
+
+def check_answer(answer, guess):
+    if answer == guess:
+        print("Correct")
+        return 1
+    else:
+        print("Wrong")
+        return 0
+
+def display_score():
+    pass
+
+def play_again():
+    pass
+
+welcome_player()
+
+start_game()
