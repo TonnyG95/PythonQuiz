@@ -74,37 +74,55 @@ def start_game():
     """
 
     for key in questions:
-        print(" ")
+        print("")
         print(key)
         for i in options[question_num-1]:
             print(i)
-        
-        """
-        This block will take user input and add it to list answers so that we can check answer later
-        and it will go for next quesstion
-
-        """
-
-        guess = input("What is your answer?")
+        guess = input("So " + name.capitalize() + " what is your answer?" + " ")
         guess = guess.upper()
-        guesses.append(guess)
+        print(" ")
+        lock = input("Would you like to lock that answer?" " " + name + " " "(Yes or No)")
+        lock = lock.upper()
+        
+        if lock == "NO":
+            print(" ")
+            answer = input("What is your answer?" " " + name + " ") 
+        else:
+            lock == "YES"
+            print(" ")
+            print("Great your answer is locked")
+            guesses.append(guess)
 
-        correct_guesses += check_answer(quesstion.get(key), guess)
-        question_num +=1
+        correct_guesses += check_answer(questions.get(key), guess)
+        question_num += 1
+
+    display_score(correct_guesses, guesses)
 
 def check_answer(answer, guess):
+
     if answer == guess:
-        print("Correct")
+        print(" ")
+        print("And that is correct answer! Congratulations, Next quesstion")
         return 1
     else:
-        print("Wrong")
-        return 0
+        print(" ")
+        print("Unfortunately, that is not a correct answer")
+        print("Game Over")
+        print(" ")
+        play_again()
 
-def display_score():
-    pass
+def display_score(correct_guesses, guesses):
+    score = int((correct_guesses/len(questions))*100)
+    print("Your score is: "+str(score)+"%")
 
 def play_again():
-    pass
+    play = input("Do you want to play again? (Yes or No) ")
+    play = play.upper()
+    if play == "YES":
+        start_game()
+    else:
+        print("Okay " + name + " Thank you for playing")
+        quit()
 
 welcome_player()
 
