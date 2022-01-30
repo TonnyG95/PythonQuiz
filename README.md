@@ -1,12 +1,12 @@
 # Rock, Paper, Scissors Game
 
-![Screenshot](https://bdm.network/wp-content/uploads/2021/12/Rock-Paper-Scissors-Screenshot.png)
+![Screenshot](https://bdm.network/wp-content/uploads/2022/01/pythhon-quzi-ci.png)
 
 ## What is this quiz about?
 
 This is simple 15 question about python so you can check your knowgale about python, this quiz contein question about python history, some basic funcion and some advance question.
 
-The deployed website can be found [Here](https://tonnyg95.github.io/Rock-Paper-Scissors-/)
+The deployed app can be found [Here](https://ci-python-quiz.herokuapp.com/)
 
 ## How to play?
 
