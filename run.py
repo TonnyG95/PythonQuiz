@@ -67,7 +67,6 @@ def start_game():
     guesses = []
     correct_guesses = 0
     question_num = 1
-    #score = 0
 
 
     """
@@ -84,28 +83,25 @@ def start_game():
         """
         Capturing user input and checking the answe
         """
-
-        guess = input("So " + name.capitalize() + " what is your answer?" + " ")
+        print(" ")
+        guess = input("So " + name.capitalize() + " what is your answer? ")
         guess = guess.upper()
         print(" ")
-       
-        """
-       
-        lock = input("Would you like to lock that answer?" " " + name + " " "(Yes or No)")
+        lock = input("Would you like to lock that answer? " + name + " (Yes or No) ")
         lock = lock.upper()
-        
+
         if lock == "NO":
             print(" ")
-            answer = input("What is your answer?" " " + name + " ") 
-        
+            guess = input("What is your answer? " + name + " ")
+            guess = guess.upper()
+            guesses.append(guess)
         else:
             lock == "YES"
             print(" ")
             print("Great your answer is locked")
             guesses.append(guess)
-    
-        """
-        guesses.append(guess)
+
+        #guesses.append(guess)
         correct_guesses += check_answer(questions.get(key), guess)
         question_num += 1
 
@@ -116,7 +112,6 @@ def check_answer(answer, guess):
         print(" ")
         print("And that is correct answer! Congratulations")
         return 1
-        #score =+ 1
     else:
         print(" ")
         print("Unfortunately, that is not a correct answer")
@@ -124,7 +119,6 @@ def check_answer(answer, guess):
         print(" ")
         print("Your answer " + guess + " And correct answer is " + answer )
         print(" ")
-        #print(" You answer correctly on " + score + " questions")
         play_again()
 
 def display_score(correct_guesses, guesses):
