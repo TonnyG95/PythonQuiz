@@ -18,15 +18,15 @@ The challenge was to build a command line (terminal) app or game using python on
 
 ## Features
 
-Listing questions one by one so the user is not confused/
-Giving operation for the user to change answer/ 
+Listing questions one by one so the user is not confused /
+Giving operation for the user to change answer / 
 Introduction and greeting to the user
 
 ## Testing
 
-I have manually tested this project by passing the code through a PEP8/ 
-Change answer/ 
-Tested my local cmd and Heroku terminal/
+I have manually tested this project by passing the code through a PEP8 / 
+Change answer / 
+Tested my local cmd and Heroku terminal /
 
 ## Bugs
 
