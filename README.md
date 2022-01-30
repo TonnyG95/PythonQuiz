@@ -1,4 +1,4 @@
-# Rock, Paper, Scissors Game
+# Python Quiz
 
 ![Screenshot](https://bdm.network/wp-content/uploads/2022/01/pythhon-quzi-ci.png)
 
