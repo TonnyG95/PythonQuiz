@@ -4,39 +4,39 @@
 
 ## What is this quiz about?
 
-This is simple 15 question about python so you can check your knowgale about python, this quiz contein question about python history, some basic funcion and some advance question.
+This is a simple 15 questions about python to check your knowledge about python. This quiz contains questions about python history, some basic functions and some advanced questions.
 
 The deployed app can be found [Here](https://ci-python-quiz.herokuapp.com/)
 
 ## How to play?
 
-You need to answer on 15 question using A, B, C or D after every anserw you need to lock the ansewr in case you change your mind dont lock your answer and you will be asked to input your new ansewr. Please note you can only change your mind about answer onece.
+You need to answer 15 questions using A, B, C or D. After every answer. You must lock the answer in case you change your mind. You can change your answer, and you will be asked to input your new answer. Please note you can only change your mind about answering once.
 
 ## Overview
 
-The challenge was to build comand line (terminal) app or game using python only. no liberys are used in this project. 
+The challenge was to build a command line (terminal) app or game using python only. And deploy it to Heroku. No liberties are used in this project. 
 
 ## Features
 
-Listing question one by one so user is not confused
-Giveing opetutin for user to change anser 
-Indrudaction and greeting to user
+Listing questions one by one so the user is not confused/
+Giving operation for the user to change answer/ 
+Introduction and greeting to the user
 
 ## Testing
 
-I have manually tested this project by passing the code through a PEP8 
-Change anserw 
-Tested my local cmd and Heruku terminal
+I have manually tested this project by passing the code through a PEP8/ 
+Change answer/ 
+Tested my local cmd and Heroku terminal/
 
 ## Bugs
 
 ### Solved bugs
-I had a lot of problems with changin my answer but it was typo error
+I had a lot of problems with changing my answer, but it was typo error
 
 ### Unsolved bugs
 No bugs remaning
 
 ## Acknowledgements
-I want to thank my mentor Antonija Simic. She is amazing. She helped me a lot with this project. This is my 2nd version of this project first one had a lot of problems with if and else statemes, but she jumped into it and gave me great advice on how to sort those problems out.
+I want to thank my mentor Antonija Simic. She is amazing, and she helped me a lot with this project. This is my 2nd version of this project first one had a lot of problems with if and else statements, but she jumped into it and gave me great advice on how to sort those problems out.
 
 This project was created for educational purposes only.
