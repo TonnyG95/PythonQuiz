@@ -117,6 +117,7 @@ def check_answer(answer, guess):
     else:
         print(" ")
         print("Unfortunately, that is not the correct answer.")
+        print(" ")
         print("Your answer is " + guess + " And the correct answer is " + answer )
         print(" ")
         print("Game Over")
@@ -126,6 +127,8 @@ def check_answer(answer, guess):
 def display_score(correct_guesses, guesses):
     score = int((correct_guesses/len(questions)))
     print("Those are all 15 questions i had for you, congratulations you won a million euros (not really) :D ")
+    print(" ")
+    play_again()
 
 def play_again():
     play = input("Would you like to play again? (Yes or No) ")
