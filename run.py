@@ -41,6 +41,8 @@ questions = {
 
 }
 
+
+
 options = [
     ["A. Programming language", "B. Music genre", "C. Social network", "D. Food"],
     ["A. Nikola Tesla", "B. Bill Gates", "C. Guido van Rossum", "D. Thomas Edison"],
@@ -70,7 +72,7 @@ def start_game():
 
 
     """
-    Listing quesstion and answers
+    Listing questions and options
 
     """
 
@@ -81,10 +83,11 @@ def start_game():
             print(i)
         
         """
-        Capturing user input and checking the answe
+        Capturing user input and checking the answer
+
         """
         print(" ")
-        guess = input("So " + name.capitalize() + " what is your answer? ")
+        guess = input("So " + name + " what is your answer? ")
         guess = guess.upper()
         print(" ")
         lock = input("Would you like to lock that answer? " + name + " (Yes or No) ")
@@ -98,10 +101,9 @@ def start_game():
         else:
             lock == "YES"
             print(" ")
-            print("Great your answer is locked")
+            print("Great, your answer is locked.")
             guesses.append(guess)
 
-        #guesses.append(guess)
         correct_guesses += check_answer(questions.get(key), guess)
         question_num += 1
 
@@ -114,19 +116,19 @@ def check_answer(answer, guess):
         return 1
     else:
         print(" ")
-        print("Unfortunately, that is not a correct answer")
-        print("Game Over")
+        print("Unfortunately, that is not the correct answer.")
+        print("Your answer is " + guess + " And the correct answer is " + answer )
         print(" ")
-        print("Your answer " + guess + " And correct answer is " + answer )
+        print("Game Over")
         print(" ")
         play_again()
 
 def display_score(correct_guesses, guesses):
-    score = int((correct_guesses/len(questions))*100)
-    print("Your score is: "+str(score)+"%")
+    score = int((correct_guesses/len(questions)))
+    print("Those are all 15 questions i had for you, congratulations you won a million euros (not really) :D ")
 
 def play_again():
-    play = input("Do you want to play again? (Yes or No) ")
+    play = input("Would you like to play again? (Yes or No) ")
     play = play.upper()
     if play == "YES":
         start_game()
