@@ -1,31 +1,42 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock, Paper, Scissors Game
 
-Welcome TonnyG95,
+![Screenshot](https://bdm.network/wp-content/uploads/2021/12/Rock-Paper-Scissors-Screenshot.png)
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+## What is this quiz about?
 
-## Reminders
+This is simple 15 question about python so you can check your knowgale about python, this quiz contein question about python history, some basic funcion and some advance question.
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+The deployed website can be found [Here](https://tonnyg95.github.io/Rock-Paper-Scissors-/)
 
-## Creating the Heroku app
+## How to play?
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+You need to answer on 15 question using A, B, C or D after every anserw you need to lock the ansewr in case you change your mind dont lock your answer and you will be asked to input your new ansewr. Please note you can only change your mind about answer onece.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+## Overview
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+The challenge was to build comand line (terminal) app or game using python only. no liberys are used in this project. 
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+## Features
 
-Connect your GitHub repository and deploy as normal.
+Listing question one by one so user is not confused
+Giveing opetutin for user to change anser 
+Indrudaction and greeting to user
 
-## Constraints
+## Testing
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+I have manually tested this project by passing the code through a PEP8 
+Change anserw 
+Tested my local cmd and Heruku terminal
 
------
-Happy coding!
+## Bugs
+
+### Solved bugs
+I had a lot of problems with changin my answer but it was typo error
+
+### Unsolved bugs
+No bugs remaning
+
+## Acknowledgements
+I want to thank my mentor Antonija Simic. She is amazing. She helped me a lot with this project. This is my 2nd version of this project first one had a lot of problems with if and else statemes, but she jumped into it and gave me great advice on how to sort those problems out.
+
+This project was created for educational purposes only.
