@@ -12,17 +12,22 @@ print(
     You will answer all the questions by typing A, B, C, or D. Your answer will not be case-sensitive.
     Python will ensure that your answer is accepted whether you use uppercase or lowercase. 
     Let's start
-    
     """
 )
 
 name = input("How do you want me to call you? ")
 name = name.capitalize()
-
-
-print("Okay " + name + " " "Let's start! :) ")
-print(" ")
-
+name = name.strip()
+while len(name) == 0:
+    print(" ")
+    print("Sorry i need to know what is your name")
+    print(" ")
+    name = input("How do you want me to call you? ")
+    name = name.capitalize()
+    name = name.strip()
+else:
+    print("Okay " + name + " " "Let's start! :) ")
+    print(" ")
 
 questions = {
     "What is Pyhon?": "A",
@@ -106,7 +111,6 @@ def start_game():
         print(key)
         for i in options[question_num - 1]:
             print(i)
-
         """
         Capturing user input and checking the answer
 
@@ -114,9 +118,19 @@ def start_game():
         print(" ")
         guess = input("So " + name + " what is your answer? ")
         guess = guess.upper()
+        guess = guess.strip()
         print(" ")
-        lock = input("Would you like to lock that answer? " + name + " (Yes or No) ")
-        lock = lock.upper()
+        while len(guess) == 0:
+            print("Sorry answer can't be empty")
+            print(" ")
+            guess = input("So " + name + " what is your answer? ")
+            guess = guess.upper()
+            guess = guess.strip()
+        else:
+            lock = input(
+                "Would you like to lock that answer? " + name + " (Yes or No) "
+            )
+            lock = lock.upper()
 
         if lock == "NO":
             print(" ")
@@ -128,10 +142,8 @@ def start_game():
             print(" ")
             print("Great, your answer is locked.")
             guesses.append(guess)
-
         correct_guesses += check_answer(questions.get(key), guess)
         question_num += 1
-
     display_score(correct_guesses, guesses)
 
 
