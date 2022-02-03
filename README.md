@@ -1,6 +1,6 @@
 # Python Quiz
 
-![Screenshot](https://bdm.network/wp-content/uploads/2022/01/pythhon-quzi-ci.png)
+![pythhon-quzi-ci](https://user-images.githubusercontent.com/47572512/152343068-e87c7c8f-0502-43aa-9c8e-74ff14801619.png)
 
 ## What is this quiz about?
 
@@ -20,15 +20,15 @@ The challenge was to build a command line (terminal) app or game using python on
 
 Introduction and greeting to the user
 
-![Screenshot](https://prnt.sc/26nv0dh)
+![Screenshot](https://user-images.githubusercontent.com/47572512/152342627-74ebff76-f8e0-4920-9577-734860fa16d4.png)
 
 
 Listing questions one by one so the user can fouus only on one quesstion and options for answer \
 
-![Screenshot](https://prnt.sc/26nuzrj)
+![Screehshot](https://user-images.githubusercontent.com/47572512/152342699-ee93db90-f535-4043-9ac2-3acc5478a141.png)
 
 Giving user option to change answer \
-![Screenshot](https://prnt.sc/26nv0x2)
+![Screenshot](https://user-images.githubusercontent.com/47572512/152342796-c6d47a20-0ea5-40b6-a96c-4ebcc2967f9f.png)
 
 
 ## Testing
