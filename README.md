@@ -4,13 +4,13 @@
 
 ## What is this quiz about?
 
-This is a simple 15 questions about python to check your knowledge about python. This quiz contains questions about python history, some basic functions and some advanced questions.
+This is a simple 15 questions about python to check your knowledge inspired by "Who Wants to be a Millionaire". This quiz contains questions about python history, some basic functions and some advanced questions. You can change your answer ones but if you answer wrong the game is over. 
 
 The deployed app can be found [Here](https://ci-python-quiz.herokuapp.com/)
 
 ## How to play?
 
-You need to answer 15 questions using A, B, C or D. After every answer. You must lock the answer in case you change your mind. You can change your answer, and you will be asked to input your new answer. Please note you can only change your mind about answering once.
+You need to answer 15 questions using A, B, C or D. After every answer. You must lock the answer in case you change your mind. You can change your answer and you will be asked to input new answer. Please note you can only change your answer once.
 
 ## Overview
 
@@ -18,9 +18,18 @@ The challenge was to build a command line (terminal) app or game using python on
 
 ## Features
 
-Listing questions one by one so the user is not confused \
-Giving operation for the user to change answer \
 Introduction and greeting to the user
+
+![Screenshot](https://prnt.sc/26nv0dh)
+
+
+Listing questions one by one so the user can fouus only on one quesstion and options for answer \
+
+![Screenshot](https://prnt.sc/26nuzrj)
+
+Giving user option to change answer \
+![Screenshot](https://prnt.sc/26nv0x2)
+
 
 ## Testing
 
