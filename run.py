@@ -139,11 +139,23 @@ def start_game():
             guess = input("What is your answer? " + name + " ")
             guess = guess.upper()
             guesses.append(guess)
-        else:
-            lock == "YES"
+        elif lock == "YES":
             print(" ")
             print("Great, your answer is locked.")
             guesses.append(guess)
+        else:
+            print("Please choose Yes or No to lock your answer")
+            print(" ")
+            guess = input("So " + name + " what is your answer? ")
+            guess = guess.upper()
+            guess = guess.strip()
+            print(" ")
+            while len(guess) == 0:
+                print("Sorry answer can't be empty")
+                print(" ")
+                guess = input("So " + name + " what is your answer? ")
+                guess = guess.upper()
+                guess = guess.strip()
         correct_guesses += check_answer(questions.get(key), guess)
         question_num += 1
     display_score(correct_guesses, guesses)
