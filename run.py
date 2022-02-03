@@ -8,10 +8,12 @@ print(
 """
 Welcome to my project. This project is for education purposes only. 
 I hope you will find this quiz fun and interesting. 
-This quiz contains 15 simple questions (inspired by "Who wants to be a millionaire")
+This quiz contains 15 simple questions 
+inspired by "Who wants to be a millionaire
 You will answer all the questions by typing A, B, C, or D. 
 Your answer will not be case-sensitive.
-Python will ensure that your answer is accepted whether you use uppercase or lowercase. 
+Python will ensure that your answer is accepted 
+whether you use uppercase or lowercase. 
 Let's start
 """
 )
