@@ -5,17 +5,16 @@ def welcome_player():
 
 
 print(
-"""
-Welcome to my project. This project is for education purposes only. 
-I hope you will find this quiz fun and interesting. 
-This quiz contains 15 simple questions 
-inspired by "Who wants to be a millionaire
-You will answer all the questions by typing A, B, C, or D. 
+    """
+Welcome to my project. This project is for education purposes only.
+I hope you will find this quiz fun and interesting.
+This quiz contains 15 simple questions
+You will answer all the questions by typing A, B, C, or D.
 Your answer will not be case-sensitive.
-Python will ensure that your answer is accepted 
-whether you use uppercase or lowercase. 
+Python will ensure that your answer is accepted
+whether you use uppercase or lowercase.
 Let's start
-"""
+    """
 )
 
 name = input("How do you want me to call you? ")
@@ -46,14 +45,14 @@ questions = {
     "Which statement is used to stop a loop": "B",
     "What was inspration for Python name?": "C",
     "What signifies the end of a statement block or suite in Python?": "D",
-    "How many CPU cores will the Python threading library take advantage of simultaneously?": "C",
-    "When a value is truncated to 3 decimal places, which of the following is true?": "A",
+    "Which of the following is not a valid data type in python?": "C",
+    "Which line of code will add a new element to the end of the list": "A",
 }
 
 
 options = [
-    ["A. Programming language", "B. Music genre", "C. Social network", "D. Food"],
-    ["A. Nikola Tesla", "B. Bill Gates", "C. Guido van Rossum", "D. Thomas Edison"],
+    ["A. Programming language", "B. Music genre", "C. Website", "D. Food"],
+    ["A. Tesla", "B. Gates", "C. Guido van Rossum", "D. Edison"],
     ["A. 1865", "B. 1991", "C. 2015", "D. 2022"],
     [
         "A. Web Development",
@@ -85,12 +84,12 @@ options = [
         "C. }",
         "D. A line that is indented less than the previous line",
     ],
-    ["A. Two", "B. None", "C. One", "D. All of the available cores"],
+    ["A. Int", "B. Float", "C. Double", "D. Str"],
     [
-        "A. Positive numbers are rounded down and negative numbers are rounded up",
-        "B. Positive numbers are rounded up and negative numbers are rounded down.",
-        "C. Both positive and negative numbers are rounded down.",
-        "D. Both positive and negative numbers are rounded up.",
+        "A. append().",
+        "B. pop().",
+        "C. sort().",
+        "D. clear().",
     ],
 ]
 
@@ -159,7 +158,7 @@ def check_answer(answer, guess):
         print(" ")
         print("Unfortunately, that is not the correct answer.")
         print(" ")
-        print("Your answer is " + guess + " And the correct answer is " + answer)
+        print("You lock " + guess + " And the correct answer is " + answer)
         print(" ")
         print("Game Over")
         print(" ")
@@ -168,9 +167,7 @@ def check_answer(answer, guess):
 
 def display_score(correct_guesses, guesses):
     score = int((correct_guesses / len(questions)))
-    print(
-        "Those are all 15 questions i had for you, congratulations you won a million euros (not really) :D "
-    )
+    print("Those are all 15 questions, congratulations you won a milon euros")
     print(" ")
     play_again()
 
