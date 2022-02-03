@@ -53,6 +53,21 @@ My question and options were too long, I used lines breaks to fix this.
 ### Unsolved bugs
 No remaining bugs
 
+## Depolyment
+
+1. Create free Herouku app
+2. Set up Config Vars 
+3. Choose deployment method as GitHub
+4. Connect Herouku with GitHub
+5. Prepare repository for deployment
+6. Push repository 
+7. Enable automatic deploys
+
+This project has been deployed on Heroku using the Code Institute mock terminal
+
+### Depoylent steps
+
+
 ## Acknowledgements
 I want to thank my mentor Antonija Simic. She is amazing, and she helped me a lot with this project.I had a lot of problems with if and else statements, but she jumped into it and gave me great advice on how to sort those problems out.
 
