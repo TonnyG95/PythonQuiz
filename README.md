@@ -33,19 +33,25 @@ Giving user option to change answer \
 
 ## Testing
 
-I have manually tested this project by passing the code through a PEP8 \
-Change answer \
-Tested my local cmd and Heroku terminal \
+I manually tested the application using the following actions:
+
+Passed the code in a code validator
+Raised errors for invalid inputs, and looped the input until a valid input is entered
+I tested it using my local terminal and the Code Institute Heroku terminal
 
 ## Bugs
 
 ### Solved bugs
-I had a lot of problems with changing my answer, but it was typo error
+User input valedation (User was able to skip typing the answer but if woud fail on checking answer)
+My question and options were too long, I used lines breaks to fix this.
+
+![bugs](https://user-images.githubusercontent.com/47572512/152345218-e303bfd6-b11e-48f4-9d85-abf7051bcfcd.png)
+
 
 ### Unsolved bugs
-No bugs remaning
+No remaining bugs
 
 ## Acknowledgements
-I want to thank my mentor Antonija Simic. She is amazing, and she helped me a lot with this project. This is my 2nd version of this project first one had a lot of problems with if and else statements, but she jumped into it and gave me great advice on how to sort those problems out.
+I want to thank my mentor Antonija Simic. She is amazing, and she helped me a lot with this project.I had a lot of problems with if and else statements, but she jumped into it and gave me great advice on how to sort those problems out.
 
 This project was created for educational purposes only.
