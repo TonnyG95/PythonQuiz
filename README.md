@@ -47,6 +47,8 @@ My question and options were too long, I used lines breaks to fix this.
 
 ![bugs](https://user-images.githubusercontent.com/47572512/152345218-e303bfd6-b11e-48f4-9d85-abf7051bcfcd.png)
 
+![solved bugs](https://user-images.githubusercontent.com/47572512/152349268-ca8bc936-b092-4165-a9c7-4bf2798e92b7.png)
+
 
 ### Unsolved bugs
 No remaining bugs
